@@ -1,0 +1,11 @@
+.board {
+  display: grid;
+  height: 800px;
+  width: 800px;
+  background-color: white;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+  border: black solid 1px;
+  align-items: center;
+  justify-content: center;
+}
