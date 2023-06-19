@@ -1,11 +1,28 @@
 .board {
-  display: grid;
   height: 800px;
   width: 800px;
-  background-color: white;
+  border: black solid 1px;
+}
+
+.rowContainer {
+  display: grid;
   grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
   grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
-  border: black solid 1px;
-  align-items: center;
+  width: 800px;
+  height: 100px;
+}
+
+.wSquare {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.bSquare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
 }
