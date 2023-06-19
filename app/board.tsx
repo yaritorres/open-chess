@@ -36,7 +36,7 @@ export default function Board() {
                 switchCounter++
                 lastSquare = 1;
                 return (
-                  <div className={styles.bSquare} key={key}>
+                  <div className={styles.bSquare} key={key} onClick={() => }>
                     {square}{verticalAxis[verticalAxis.length - (rowKey + 1)]}
                   </div>
                 )
